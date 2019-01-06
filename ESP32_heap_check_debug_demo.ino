@@ -50,8 +50,6 @@ TaskHandle_t TaskHandle1 = NULL;
 TaskHandle_t TaskHandle2 = NULL;
 TaskHandle_t TaskHandle3 = NULL;
 TaskHandle_t TaskHandle4 = NULL;
-//extern TaskHandle_t _network_event_task_handle;
-//extern TaskHandle_t loopTaskHandle;
 
 void setup() {
 int previous_number_of_taks=uxTaskGetNumberOfTasks();   // This returns 8 tasks, while calls to uxTaskGetNumberOfTasks provide 7. why is that?
