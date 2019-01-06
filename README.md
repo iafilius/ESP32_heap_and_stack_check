@@ -1,5 +1,5 @@
 # ESP32_heap_and_stack_check
-ESP32 Arduino based stack and heap capability demo, using mutex for serialized logging to Serial port from various tasks
+ESP32 Arduino based stack and heap information capability demo, using mutex for serialized logging to Serial port from various tasks
 
 Sample output
 ```
